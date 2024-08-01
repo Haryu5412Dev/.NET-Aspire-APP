@@ -14,4 +14,14 @@ builder.AddProject<Projects.AspireYouTubeSummariser_WebApp>("webapp")
        .WithReference(cache)
        .WithReference(apiapp);
 
+builder.AddProject<Projects.AspireYouTubeSummariser_WebApp>("apiapp")
+       .WithExternalHttpEndpoints()
+       .WithReference(cache)
+       .WithReference(apiapp);
+
+       builder.AddProject<Projects.AspireYouTubeSummariser_WebApp>("cache")
+       .WithExternalHttpEndpoints()
+       .WithReference(cache)
+       .WithReference(apiapp);
+
 builder.Build().Run();
