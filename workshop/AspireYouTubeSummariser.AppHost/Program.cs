@@ -12,7 +12,5 @@ var apiapp = builder.AddProject<Projects.AspireYouTubeSummariser_ApiApp>("apiapp
 
 builder.AddProject<Projects.AspireYouTubeSummariser_WebApp>("webapp")
        .WithExternalHttpEndpoints();
-       // .WithReference(cache)
-       // .WithReference(apiapp);
 
 builder.Build().Run();
