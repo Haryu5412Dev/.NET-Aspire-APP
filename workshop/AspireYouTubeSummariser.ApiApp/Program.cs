@@ -30,10 +30,11 @@ builder.Services.AddScoped<YouTubeSummariserService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.WithExternalHttpEndpoints();
 
 var app = builder.Build();
 
-app.WithExternalHttpEndpoints();
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
