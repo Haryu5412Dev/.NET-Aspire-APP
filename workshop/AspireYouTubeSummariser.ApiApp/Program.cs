@@ -33,7 +33,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-app.MapDefaultEndpoints();
+app.WithExternalHttpEndpoints();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
