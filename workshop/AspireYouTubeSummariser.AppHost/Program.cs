@@ -12,7 +12,7 @@ var apiapp = builder.AddProject<Projects.AspireYouTubeSummariser_ApiApp>("apiapp
 
 builder.AddProject<Projects.AspireYouTubeSummariser_WebApp>("webapp")
        .WithExternalHttpEndpoints()
-       .WithReference(cache) // I Fixed ALL UwU
-       .WithReference(apiapp); // I didn't put this ;0;
-// so i sloved all problems :3
+       .WithReference(cache)
+       .WithReference(apiapp);
+
 builder.Build().Run();
