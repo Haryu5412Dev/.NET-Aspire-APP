@@ -486,9 +486,11 @@ $RECYCLE.BIN/
 # ---
 *.bak
 appsettings.Development.json
-appsettings.json
 appsettings.Production.json
 bundle.js
 bundle.js.*.txt
 # workshop*/
 z-demo*/
+
+# for api key
+/workshop/AspireYouTubeSummariser.AppHost/appsettings.json
