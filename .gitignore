@@ -493,9 +493,7 @@ bundle.js.*.txt
 # workshop*/
 z-demo*/
 
-# 기존의 다른 무시 항목들
-*.log
-*.tmp
-
-# AspireYouTubeSummariser.AppHost 폴더의 appsettings.json 파일 무시
-/workshop/AspireYouTubeSummariser.AppHost/appsettings.json
+# appsettings.json 파일 무시
+# /workshop/AspireYouTubeSummariser.AppHost/appsettings.json
+# AspireYouTubeSummariser.AppHost/appsettings.json
+# appsettings.json
