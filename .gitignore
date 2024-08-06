@@ -494,3 +494,5 @@ z-demo*/
 
 # for api key
 /workshop/AspireYouTubeSummariser.AppHost/appsettings.json
+/AspireYouTubeSummariser.AppHost/appsettings.json
+appsettings.json
