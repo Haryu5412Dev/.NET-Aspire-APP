@@ -485,7 +485,6 @@ $RECYCLE.BIN/
 
 # ---
 *.bak
-# appsettings.json
 appsettings.Development.json
 appsettings.Production.json
 bundle.js
@@ -493,7 +492,3 @@ bundle.js.*.txt
 # workshop*/
 z-demo*/
 
-# appsettings.json 파일 무시
-# /workshop/AspireYouTubeSummariser.AppHost/appsettings.json
-# AspireYouTubeSummariser.AppHost/appsettings.json
-# appsettings.json
